@@ -1,0 +1,71 @@
+# -----------------------------------------
+# Go Build / Module Files
+# -----------------------------------------
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build output
+/bin/
+/build/
+/dist/
+
+# Go coverage files
+*.out
+
+# Dependency directories (if any)
+vendor/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# -----------------------------------------
+# Gin-specific (common patterns)
+# -----------------------------------------
+# Hot reload tools temp files
+.air/
+tmp/
+*.pid
+
+# -----------------------------------------
+# macOS system files
+# -----------------------------------------
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r characters
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# -----------------------------------------
+# VS Code
+# -----------------------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# VS Code extensions
+# (optional, uncomment if needed)
+# .devcontainer/
+
+# -----------------------------------------
+# Others
+# -----------------------------------------
+*~
